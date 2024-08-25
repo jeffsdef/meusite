@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte';
+    src: url(Poppins-Medium.ttf);
+}
+
+body {
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'fonte', sans-serif;
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+p {
+    font-size: 10pt;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+header#cabecalho {
+    height: 160px;
+}
+
+header#cabecalho h1 {
+    font-family: 'fonte', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho img#logo {
+    position: absolute;
+    width: 300px;
+    left: 900px;
+    top: 50px;
+}
+
+article#noticiap h3 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+article#noticiap p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+table#tabelaspec {
+    display: inline-block;
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-right: 10px;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-size: 7pt;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+    font-size: 7pt;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+table#tabelaspec2 {
+    display: inline-block;
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-right: 10px
+}
+
+table#tabelaspec2 td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec2 td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-size: 7pt;
+}
+
+table#tabelaspec2 td.cd {
+    background-color: #cecece;
+    font-size: 7pt;
+}
+
+table#tabelaspec2 caption {
+    color: #888888;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+table#tabelaspec3 {
+    display: inline-block;
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-right: 10px;
+}
+
+table#tabelaspec3 td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec3 td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-size: 7pt;
+}
+
+table#tabelaspec3 td.cd {
+    background-color: #cecece;
+    font-size: 7pt;
+}
+
+table#tabelaspec3 caption {
+    color: #888888;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    text-transform: none;
+    position: relative;
+    top: 0px;
+    left: -50px;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    transition: background-color 1s;
+    font-size: 11pt;
+    border-radius: 15px;
+}
+
+nav#menu li:hover {
+    background-color: #888888;
+    border-radius: 15px;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+aside#lado {
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #ffffff;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    border-radius: 10px;
+    font-family: 'fonte', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cecece;
+    text-decoration: underline;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float: left;
+    padding-right: 15px;
+    background-color: #ffffff;
+}
+
+.contato {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contato input, .contato textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contato button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}

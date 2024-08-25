@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Contato - Samsung Galaxy S24</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+    <div id="interface">
+        <article id="noticiap">
+            <header id="cabecalho">
+                <h1>Galaxy S24 Series</h1>
+                <h4>O Galaxy AI chegou!</h4>
+                <img id="logo" src="samsunglogo.png" />
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html" id="home">Home</a></li>
+                        <li><a href="https://shop.samsung.com/br/galaxy-s24/p" target="_blank" id="compre">Compre
+                                Aqui</a></li>
+                        <li><a href="https://samsung.com.br" target="_blank" id="site">Site da Samsung</a></li>
+                        <li><a href="contato.html" id="contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="contato">
+                <form id="formContato" onsubmit="return validarFormulario()">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span id="erroEmail" class="error"></span>
+            
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+
+            <footer>
+                <h5>designed by Jefferson Santos</h5>
+            </footer>
+        </article>
+    </div>
+</body>
+
+</html>
