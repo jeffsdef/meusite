@@ -9,11 +9,10 @@ body {
     background-color: #dddddd;
     color: rgba(0, 0, 0, 0.9);
     font-family: 'fonte', sans-serif;
-    width: 900px;
 }
 
 div#interface {
-    width: 900px;
+    width: 600px;
     background-color: #ffffff;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
