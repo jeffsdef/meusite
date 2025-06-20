@@ -9,6 +9,7 @@ body {
     background-color: #dddddd;
     color: rgba(0, 0, 0, 0.9);
     font-family: 'fonte', sans-serif;
+    width: 900px;
 }
 
 div#interface {
